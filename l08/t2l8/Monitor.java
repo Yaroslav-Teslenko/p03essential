@@ -1,4 +1,4 @@
-package l01.t2l1;
+package l08.t2l8;
 
 public class Monitor extends Device{
     private int resolutionX;
