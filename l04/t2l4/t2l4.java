@@ -1,12 +1,13 @@
 package l04.t2l4;
 
-import l03.t4l3.DocumentWorker;
-import l03.t4l3.ExpertDocumentWorker;
-import l03.t4l3.ProDocumentWorker;
-
 import java.util.Scanner;
 
 public class t2l4 {
+    /*Використовуючи IntelliJ IDEA, створіть проект. Потрібно: Створити клас AbstractHandler.
+    У тілі класу створити методи void open(), void create(), void change(), void save().
+    Створити похідні класи XMLHandler, TXTHandler, DOCHandler від базового класу AbstractHandler.
+    Написати програму, яка виконуватиме визначення документа і для кожного формату мають бути методи відкриття,
+    створення, редагування, збереження певного формату документа.*/
     public static void main(String[] args) {
         AbstractHandler document;
         Scanner scanner = new Scanner(System.in);
